@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.column {
+    display: block;
+    float:left;
+    padding: 15px;
+    padding-bottom: 80px;
+    width:45%;
+    border: 2px solid #a8a8a8;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.expense { 
+    list-style-type:none ;
+    background-color: #ffffff55;
+    margin-bottom: 0%;
+}
+
+.exp {
+    float:none;
+    width:90%;
+    margin:2vw;
+    padding:1vw;
+    text-align: center;
+    color:#202020;
+    border-radius: 0px;
+}
+
+iframe {
+    width:90%;
+    height:30vw;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    border: 10px solid black;
+    display:block;
+    margin:auto
+}   
+
+#pid {
+    margin: 1px;
+    padding: 0%;
+    text-align: center;
+}
